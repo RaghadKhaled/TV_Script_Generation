@@ -11,7 +11,8 @@ I did this project as a part of Deep Learning Nanodegree from Udacity.
 
 ## Dataset
 
-The landmark images are a subset of the Google Landmarks Dataset v2. It has different 50 landmarks from all of the world. You can download the datatset by [this link](https://udacity-dlnfd.s3-us-west-1.amazonaws.com/datasets/landmark_images.zip). You can find more information for the full dataset [on Kaggle](https://www.kaggle.com/google/google-landmarks-dataset).
+The data is a subset of Seinfeld TV dataset of scripts from 9 seasons. 
+You can find more information for the full dataset [on Kaggle](https://www.kaggle.com/datasets/thec03u5/seinfeld-chronicles).
 
 --- 
 
@@ -28,16 +29,61 @@ All the implementation details are in jupyter notebook file ``` landmark.ipynb``
 
 ## Results
 
-I test the model from image in my computer, the results are showed below. 
+I test the model with ```jerry``` as start word and 400 total length of text , the results are showed below. 
 
-<div align="center">
-<p>
-<img src="Untitled - Frame 1.jpg" width="400" height="800"/>
-</p>
-<br>
-<div>
-</div>
-</div>
+```
+jerry:!(waves the keys from jerry)
+
+jerry: oh.
+
+elaine:(to kramer) you know, i got a problem with the woman.
+
+jerry:(to elaine) what?
+
+george: i don't want to know that.
+
+jerry: what is wrong with you, that is so bad.
+
+george: what are you doing here, jerry, you know? you know, i have no idea how to have sex with the guy....
+
+jerry: oh! yeah, you know, i think i'm gonna get out of here.
+
+george:(to george) you know, you know, i think i could get you a little more enthusiastic...
+
+george:(pointing to the counter) oh, hi, jerry.
+
+george: what about my last date?!
+
+kramer:(shouts) i don't think you can take a bite!
+
+jerry: i thought you said that.
+
+jerry: i thought you were going to be a lot of a good time, i don't have any trouble. i was a little bit of the commercial.
+
+kramer: yeah, i know.
+
+jerry:(to jerry) i don't know. i mean, if you could just do it.
+
+george:(sarcastic) i thought he was a kid. i can't do this!
+
+george:(to george) hey, what are you doing?
+
+george: i think i can. i just don't think we have a good thing.
+
+kramer: well, i don't know what to do.
+
+george: well, if we should just get a little tired of that.
+
+jerry: oh, i don't think so. i think it's a good idea. i mean, i have to go to the bathroom.
+
+jerry: i don't know why you can't do it.
+
+kramer: i don't think so.
+
+george: i don't think so.
+
+elaine: oh.... no. no, no no no
+```
 
 
 
@@ -47,10 +93,6 @@ I test the model from image in my computer, the results are showed below.
 - Python 3.7
 - Numpy 
 - Torch
-- Torchvision
-- PIL
-- OpenCV
-- Matplotlib 
 - Jupyter Notebook
 - Maybe needs to use GPU
 
@@ -58,4 +100,4 @@ I test the model from image in my computer, the results are showed below.
 ---
 
 ## Running the project
-The whole project is located in the jupyter notebook file ``` landmark.ipynb ```, you can use the Anaconda environment to open the Jupyter Notebook and install the requirement.
+The whole project is located in the jupyter notebook file ``` dlnd_tv_script_generation ```, you can use the Anaconda environment to open the Jupyter Notebook and install the requirement.
